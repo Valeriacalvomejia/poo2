@@ -12,6 +12,7 @@ public class inicio {
 
         if(Usuarios.validarUsuario(u,c)){
             System.out.println("Bienvenid@ "+u);
+            inicioAdmin.saludar(u);
         }else{
             System.out.println("Usuario o clave incorrecta");
         }
